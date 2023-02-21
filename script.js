@@ -1,0 +1,45 @@
+let cbHell = document.querySelector('#cbh');
+setTimeout(()=>{    
+    cbHell.style.color="red";
+    cbHell.innerText="10";
+    setTimeout(()=>{
+        cbHell.style.color="blue";
+        cbHell.innerText="9";
+        setTimeout(()=>{
+            cbHell.style.color="green";
+            cbHell.innerText="8";
+            setTimeout(()=>{
+                cbHell.style.color="yellow";
+                cbHell.innerText="7";
+                setTimeout(()=>{
+                    cbHell.style.color="orange";
+                    cbHell.innerText="6";
+                    setTimeout(()=>{                        
+                        cbHell.style.color="purple";
+                        cbHell.innerText="5";
+                        setTimeout(()=>{                            
+                            cbHell.style.color="DimGrey";
+                            cbHell.innerText="4";
+                            setTimeout(()=>{
+                                cbHell.style.color="Chartreuse";
+                                cbHell.innerText="3";
+                                setTimeout(()=>{
+                                    cbHell.style.color="Crimson";
+                                    cbHell.innerText="2";
+                                    setTimeout(()=>{
+                                        cbHell.style.color="DarkBlue";
+                                        cbHell.innerText="1";
+                                        setTimeout(()=>{
+                                            cbHell.style.color="#990012";
+                                            cbHell.innerText="Happy Independence Day!!";
+                                        },1000);
+                                    },1000);
+                                },1000);
+                            },1000);
+                        },1000);
+                    },1000);
+                },1000);
+            },1000);
+        },1000);
+    },1000);
+},1000);
